@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "pluginName": "app-creator-tool",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run",
+            "runtimeExecutable": "npm",
+            "windows": {
+                "runtimeExecutable": "npm.cmd"
+            },
+            "runtimeArgs": [
+                "run-script",
+                "start"
+            ],
+            "port": 9229
+        }
+    ]
+}
